@@ -8,73 +8,81 @@ export default function Home() {
           share ideas. I am so excited to grow alongside this amazing universe!
         </p>
       </div>
-      <div class="m-8 flex">
-        <div class="rounded-lg shadow-lg bg-white max-w-sm">
-          <a href="#!">
-            <img
-              class="rounded-t-lg"
-              src="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
-              alt=""
-            />
-          </a>
-          <div class="p-6">
-            <h5 class="text-gray-900 text-xl font-medium mb-2">Card title</h5>
-            <p class="text-gray-700 text-base mb-4">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-            <button
-              type="button"
-              class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
-            >
-              Button
-            </button>
-          </div>
-        </div>
-        <div class="m-8 flex">
-          <div class="rounded-lg shadow-lg bg-white max-w-sm">
+      <div className="flex items-stretch justify-evenly">
+        <div className="m-4 flex text-center">
+          <div className="rounded-lg shadow-lg bg-white dark:bg-black">
             <a href="#!">
               <img
-                class="rounded-t-lg"
-                src="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
-                alt=""
+                className="rounded-t-lg w-fit ml-12 h-2/5 w-max"
+                src="https://www.supermansupersite.com/olsen2.gif"
+                alt="Jimmy Olsen holds a camera"
               />
             </a>
-            <div class="p-6">
-              <h5 class="text-gray-900 text-xl font-medium mb-2">Card title</h5>
-              <p class="text-gray-700 text-base mb-4">
+            <div className="p-6">
+              <h5 className="text-gray-900 text-xl font-medium mb-2 dark:text-white">
+                News
+              </h5>
+              <p className="text-gray-700 text-base mb-4">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
               <button
                 type="button"
-                class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                className="align-center inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out dark:bg-gray-300 text-black"
               >
-                Button
+                Read On
               </button>
             </div>
           </div>
         </div>
-        <div class="m-8 flex">
-          <div class="rounded-lg shadow-lg bg-white max-w-sm">
+        <div className="m-4 flex text-center">
+          <div className="rounded-lg shadow-lg bg-white dark:bg-black">
             <a href="#!">
               <img
-                class="rounded-t-lg"
-                src="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+                className="rounded-t-lg"
+                src="https://www.lascimmiapensa.com/wp-content/uploads/2021/12/the-batman.jpg"
                 alt=""
               />
             </a>
-            <div class="p-6">
-              <h5 class="text-gray-900 text-xl font-medium mb-2">Card title</h5>
-              <p class="text-gray-700 text-base mb-4">
+            <div className="p-6">
+              <h5 className="text-gray-900 text-xl font-medium mb-2 dark:text-white">
+                Reviews
+              </h5>
+              <p className="text-gray-700 text-base mb-4">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
               <button
                 type="button"
-                class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                className="align-center inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out dark:bg-gray-300 text-black"
               >
-                Button
+                Read On
+              </button>
+            </div>
+          </div>
+        </div>
+        <div className="m-4 flex text-center">
+          <div className="rounded-lg shadow-lg bg-white dark:bg-black">
+            <a href="#!">
+              <img
+                className="rounded-t-lg "
+                src="https://www.dc.com/sites/default/files/FLSPv2_Cv1_R1_marquee_57ef19df8d0256.03779299.jpg"
+                alt=""
+              />
+            </a>
+            <div className="p-6">
+              <h5 className="text-gray-900 text-xl font-medium mb-2 dark:text-white">
+                Timeline
+              </h5>
+              <p className="text-gray-700 text-base mb-4">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <button
+                type="button"
+                className="align-center inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out dark:bg-gray-300 text-black"
+              >
+                Read On
               </button>
             </div>
           </div>
