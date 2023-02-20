@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <main className="py-4 px-48">
-      <div className="p-6 shadow-lg rounded-lg bg-gray-100 text-gray-700 text-center">
+      <div className="p-6 shadow-lg rounded-lg bg-gray-100 text-gray-700 text-center dark:bg-gray-500 text-white">
         <h2 className="font-semibold text-3xl mb-5">Welcome to DCUNerds!</h2>
         <p>
           This is a place for fans of James Gunn's DC Universe to gather and
@@ -13,7 +13,7 @@ export default function Home() {
           <div className="rounded-lg shadow-lg bg-white dark:bg-black">
             <a href="#!">
               <img
-                className="rounded-t-lg h-1/2 max-w-xs"
+                className="h-3/5 max-w-xs"
                 src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4d951c98-bb9c-42db-bbe8-4ba454ae6c9f/ddbiccb-260e9c58-2c9f-42c3-9da8-3b9b231286ed.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzRkOTUxYzk4LWJiOWMtNDJkYi1iYmU4LTRiYTQ1NGFlNmM5ZlwvZGRiaWNjYi0yNjBlOWM1OC0yYzlmLTQyYzMtOWRhOC0zYjliMjMxMjg2ZWQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.DjrJeezM6JUV-FSx7abaJbSMnr7ktJQ3Ggr9FW5r0tA"
                 alt="Jimmy Olsen holds a camera"
               />
@@ -39,7 +39,7 @@ export default function Home() {
           <div className="rounded-lg shadow-lg bg-white dark:bg-black">
             <a href="#!">
               <img
-                className="rounded-t-lg h-1/2 max-w-xs"
+                className="h-3/5 max-w-xs"
                 src="https://www.lascimmiapensa.com/wp-content/uploads/2021/12/the-batman.jpg"
                 alt=""
               />
@@ -65,7 +65,7 @@ export default function Home() {
           <div className="rounded-lg shadow-lg bg-white dark:bg-black">
             <a href="#!">
               <img
-                className="rounded-t-lg h-1/2 max-w-xs"
+                className="h-3/5 max-w-xs"
                 src="https://www.dc.com/sites/default/files/FLSPv2_Cv1_R1_marquee_57ef19df8d0256.03779299.jpg"
                 alt=""
               />
@@ -88,6 +88,12 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      <div className="p-2 shadow-lg rounded-lg bg-blue text-gray-700 text-center dark:bg-gray-500 text-white">
+        <h2 className="font-semibold text-3xl">Latest in DCU Nerdome</h2>
+      </div>
+
+
     </main>
   );
 }
