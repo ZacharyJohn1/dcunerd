@@ -13,8 +13,8 @@ export default function Home() {
           <div className="rounded-lg shadow-lg bg-white dark:bg-black">
             <a href="#!">
               <img
-                className="rounded-t-lg w-fit ml-12 h-2/5 w-max"
-                src="https://www.supermansupersite.com/olsen2.gif"
+                className="rounded-t-lg h-1/2 max-w-xs"
+                src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4d951c98-bb9c-42db-bbe8-4ba454ae6c9f/ddbiccb-260e9c58-2c9f-42c3-9da8-3b9b231286ed.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzRkOTUxYzk4LWJiOWMtNDJkYi1iYmU4LTRiYTQ1NGFlNmM5ZlwvZGRiaWNjYi0yNjBlOWM1OC0yYzlmLTQyYzMtOWRhOC0zYjliMjMxMjg2ZWQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.DjrJeezM6JUV-FSx7abaJbSMnr7ktJQ3Ggr9FW5r0tA"
                 alt="Jimmy Olsen holds a camera"
               />
             </a>
@@ -39,7 +39,7 @@ export default function Home() {
           <div className="rounded-lg shadow-lg bg-white dark:bg-black">
             <a href="#!">
               <img
-                className="rounded-t-lg"
+                className="rounded-t-lg h-1/2 max-w-xs"
                 src="https://www.lascimmiapensa.com/wp-content/uploads/2021/12/the-batman.jpg"
                 alt=""
               />
@@ -65,7 +65,7 @@ export default function Home() {
           <div className="rounded-lg shadow-lg bg-white dark:bg-black">
             <a href="#!">
               <img
-                className="rounded-t-lg "
+                className="rounded-t-lg h-1/2 max-w-xs"
                 src="https://www.dc.com/sites/default/files/FLSPv2_Cv1_R1_marquee_57ef19df8d0256.03779299.jpg"
                 alt=""
               />
