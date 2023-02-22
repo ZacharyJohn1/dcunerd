@@ -2,17 +2,17 @@ import Link from "next/link";
 
 export default function Nav() {
   return (
-      <nav className='bg-white shadow dark:bg-gray-500 w-full h-[75px]'>
+      <nav className='bg-blue-400 shadow dark:bg-gray-500 w-full h-[75px]'>
         
       <div className="sm:visible container flex items-center justify-evenly p-6 mx-auto text-gray-600 h-[75px]">
         <Link href="/">
-          <p className="text-l font-semibold text-blue dark:text-black">
+          <p className="text-l font-semibold text-white dark:text-black">
             Home
           </p>
         </Link>
 
         <Link href="/news">
-          <p className="text-l font-semibold text-blue dark:text-black">
+          <p className="text-l font-semibold text-white dark:text-black">
             News
           </p>
         </Link>
@@ -21,13 +21,13 @@ export default function Nav() {
         </a>
 
         <Link href="/reviews">
-          <p className="text-l font-semibold text-blue dark:text-black">
+          <p className="text-l font-semibold text-white dark:text-black">
             Reviews
           </p>
         </Link>
 
         <Link href="/timeline">
-          <p className="text-l font-semibold text-blue dark:text-black">
+          <p className="text-l font-semibold text-white dark:text-black">
             Timeline
           </p>
         </Link>
