@@ -1,10 +1,9 @@
 export default function Home() {
   return (
     <main className="px-2 py-4">
-      <div className="mb-2">
-      <div className="mb-4 h-1 bg-black dark:bg-white"></div>
+      <div className="mb-2 md:flex flex-row mb-2">
         <div className="flex px-4 place-content-center">
-          <h2 className="flex rounded-lg font-semibold items-center justify-center text-center text-3xl bg-blue-400 mb-4 h-[40px] w-full dark:text-black">
+          <h2 className="flex rounded-lg md:rounded-none font-semibold items-center justify-center text-center text-3xl bg-blue-400 mb-4 h-[40px] md:h-full w-full dark:text-black">
             Latest News:
           </h2>
         </div>
@@ -15,7 +14,7 @@ export default function Home() {
             <div className="mb-1 rounded-xl shadow-lg bg-white text-black">
               <a href="#!">
                 <img
-                  className="object-cover rounded-t-xl"
+                  className="object-cover rounded-t-xl lg:w-max"
                   src="https://www.digitaltrends.com/wp-content/uploads/2022/05/dc-comics-nightwing.jpg?p=1"
                   alt="Nightwing gives a smug look as he falls through the air"
                 />
@@ -30,7 +29,7 @@ export default function Home() {
             </div>
             <p className="p-2 m-2 rounded-xl text-xs text-black bg-blue-200">
               While there has been much speculation about which heroes will be
-              featured in the...<br></br>{" "}
+              featured in the DCU...{" "}
               <a className="text-blue-500" href="#">
                 Continue Reading
               </a>
@@ -54,8 +53,8 @@ export default function Home() {
               </div>
             </div>
             <p className="p-2 m-2 rounded-xl text-xs text-black bg-blue-200">
-              Michael Keaton is making his much awaited return as Batman and
-              Sasha Calle stuns...<br></br>{" "}
+              Keaton makes his much awaited return and
+              Calle stuns as Supergirl in 'The Flash' trailer...{" "}
               <a className="text-blue-500" href="#">
                 Continue Reading
               </a>
@@ -65,7 +64,7 @@ export default function Home() {
         <div className="flex place-content-center">
           <button
             type="button"
-            className="flex rounded-3xl self-center px-6 py-2.5 bg-blue-400 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:text-gray-200 hover:bg-blue-500 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out dark:bg-gray-500 text-black"
+            className="flex rounded-3xl self-center px-6 py-2.5 bg-blue-400 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:text-gray-200 hover:bg-blue-500 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out dark:bg-gray-300 text-black"
           >
             <a href="/news">See More News ➡️</a>
           </button>
@@ -137,7 +136,7 @@ export default function Home() {
         <div className="flex place-content-center">
           <button
             type="button"
-            className="flex mb-4 rounded-3xl self-center px-6 py-2.5 bg-blue-400 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:text-gray-200 hover:bg-blue-500 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out dark:bg-gray-500 text-black"
+            className="flex mb-4 rounded-3xl self-center px-6 py-2.5 bg-blue-400 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:text-gray-200 hover:bg-blue-500 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out dark:bg-gray-300 text-black"
           >
             <a href="/reviews">See More Reviews ➡️</a>
           </button>
@@ -170,7 +169,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="mb-1 h-1 bg-black dark:bg-white"></div>
+      <div className="mb-4 h-1 bg-black dark:bg-white"></div>
 
     </main>
   );
