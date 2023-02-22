@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Nav() {
   return (
-      <nav className='bg-blue-400 shadow dark:bg-gray-500 w-full h-[75px]'>
+      <nav className='bg-blue-400 shadow dark:bg-blue-700 w-full h-[75px]'>
         
       <div className="sm:visible container flex items-center justify-evenly p-6 mx-auto text-gray-600 h-[75px]">
         <Link href="/">
