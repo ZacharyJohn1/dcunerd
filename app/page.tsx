@@ -2,11 +2,11 @@ export default function Home() {
   return (
     <main className="py-4 px-4">
       <div className="p-3 mb-3 shadow-lg rounded-lg bg-blue-400 text-gray-700 text-center dark:bg-blue-700 text-black">
-        <h2 className="font-semibold text-xl rounded-lg bg-black text-white">
+        <h2 className="font-semibold text-xl rounded-lg bg-blue-200 text-black dark:bg-black text-white">
           Top Stories in the DCU:
         </h2>
         <div className="flex flex-col text-center items-center p-2">
-          <div className="mb-1 rounded-lg shadow-lg bg-white dark:bg-black text-white">
+          <div className="mb-1 rounded-lg shadow-lg bg-white text-black dark:bg-black text-white">
             <a href="#!">
               <img
                 className="object-cover"
@@ -24,7 +24,7 @@ export default function Home() {
           </p>
           <button
             type="button"
-            className="flex items-center px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out dark:bg-gray-300 text-black"
+            className="flex items-center px-6 py-2.5 bg-blue-200 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out dark:bg-gray-300 text-black"
           >
             <a href="/news">See More News ➡️</a>
           </button>
@@ -33,11 +33,11 @@ export default function Home() {
         
 
       <div className="p-3 mb-3 shadow-lg rounded-lg bg-blue-400 text-gray-700 text-center dark:bg-blue-700 text-black">
-        <h2 className="font-semibold text-xl rounded-lg bg-black text-white">
+        <h2 className="font-semibold text-xl rounded-lg bg-blue-200 text-black dark:bg-black text-white">
           Newest DCUnerds! Review:
         </h2>
         <div className="flex flex-col text-center items-center p-2">
-          <div className="mb-1 rounded-lg shadow-lg bg-white dark:bg-black text-white">
+          <div className="mb-1 rounded-lg shadow-lg bg-white text-black dark:bg-black text-white">
             <a href="#!">
               <img
                 className="object-cover"
@@ -55,7 +55,7 @@ export default function Home() {
           </p>
           <button
             type="button"
-            className="flex items-center px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out dark:bg-gray-300 text-black"
+            className="flex items-center px-6 py-2.5 bg-blue-200 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out dark:bg-gray-300 text-black"
           >
             <a href="/reviews">See More Reviews ➡️</a>
           </button>
@@ -64,7 +64,7 @@ export default function Home() {
 
 
       <div className="p-3 mb-3 shadow-lg rounded-lg bg-blue-400 text-gray-700 text-center dark:bg-blue-700 text-black">
-        <h2 className="font-semibold text-xl rounded-lg bg-black text-white">
+        <h2 className="font-semibold text-xl rounded-lg bg-blue-200 text-black dark:bg-black text-white">
           View the DCU Timeline:
         </h2>
         <div className="flex flex-col text-center items-center p-2">
@@ -89,7 +89,7 @@ export default function Home() {
         </p>
           <button
             type="button"
-            className="flex items-center px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out dark:bg-gray-300 text-black"
+            className="flex items-center px-6 py-2.5 bg-blue-200 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out dark:bg-gray-300 text-black"
           >
             <a href="/news">See the Full Timeline ➡️</a>
           </button>
