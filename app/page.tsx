@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <main className="px-2 py-4">
-      <div className="mb-2 md:flex flex-row mb-2">
+      <div className="mb-2 lg:flex flex-row mb-2">
         <div className="flex px-4 place-content-center">
           <h2 className="flex rounded-lg md:rounded-none font-semibold items-center justify-center text-center text-3xl bg-blue-400 mb-4 h-[40px] md:h-full w-full dark:text-black">
             Latest News:

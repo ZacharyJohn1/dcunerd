@@ -4,7 +4,7 @@ export default function Nav() {
   return (
       <nav className='bg-blue-400 shadow dark:bg-blue-700 w-full h-[75px]'>
         
-      <div className="sm:visible container flex items-center justify-evenly text-gray-600 h-[75px]">
+      <div className="flex items-center justify-evenly text-gray-600 h-[75px]">
         <Link href="/">
           <p className="text-l font-semibold text-black dark:text-white">
             Home
@@ -16,7 +16,7 @@ export default function Nav() {
             News
           </p>
         </Link>
-        <a href="# "className="visible flex sm:order-none">
+        <a href="# "className="">
           <img src="mainlogo.png" className="rounded-full w-[70px] h-[70px]" />
         </a>
 
