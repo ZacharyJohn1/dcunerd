@@ -3,7 +3,7 @@ export default function Home() {
     <main className="px-2 py-4">
       <div className="border-0 border-blue-700">
       <div className="flex place-content-center">
-        <h2 className="flex font-semibold items-center justify-center text-center text-3xl bg-blue-700 text-black mb-4 h-[75px] w-full">
+        <h2 className="flex font-semibold items-center justify-center text-center text-3xl bg-blue-700 text-black mb-4 h-[65px] w-full">
           Latest News:
         </h2>
       </div>
