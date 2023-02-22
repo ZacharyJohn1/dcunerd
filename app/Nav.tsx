@@ -6,13 +6,13 @@ export default function Nav() {
         
       <div className="sm:visible container flex items-center justify-evenly text-gray-600 h-[75px]">
         <Link href="/">
-          <p className="text-l font-semibold text-white dark:text-black">
+          <p className="text-l font-semibold text-black dark:text-white">
             Home
           </p>
         </Link>
 
         <Link href="/news">
-          <p className="text-l font-semibold text-white dark:text-black">
+          <p className="text-l font-semibold text-black dark:text-white">
             News
           </p>
         </Link>
@@ -21,13 +21,13 @@ export default function Nav() {
         </a>
 
         <Link href="/reviews">
-          <p className="text-l font-semibold text-white dark:text-black">
+          <p className="text-l font-semibold text-black dark:text-white">
             Reviews
           </p>
         </Link>
 
         <Link href="/timeline">
-          <p className="text-l font-semibold text-white dark:text-black">
+          <p className="text-l font-semibold text-black dark:text-white">
             Timeline
           </p>
         </Link>
