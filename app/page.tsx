@@ -7,78 +7,98 @@ export default function Home() {
             Latest in News:
           </h2>
         </div>
-      <div className="lg:flex">
+        <div className="lg:flex">
         <div className="lg:w-1/2 rounded-xl mx-5 mb-5 shadow-lg bg-blue-400 text-gray-700 text-center dark:bg-blue-700 text-black">
-          <div className="flex rounded-xl flex-col text-center items-center">
-            <div className="mb-1 rounded-xl shadow-lg bg-white text-black">
-              <a href="#!">
-                <img
-                  className="object-cover rounded-t-xl"
-                  src="https://www.digitaltrends.com/wp-content/uploads/2022/05/dc-comics-nightwing.jpg?p=1"
-                  alt="Nightwing gives a smug look as he falls through the air"
-                />
-              </a>
-              <div className="flex bg-white items-center justify-center">
+            <div className="flex rounded-xl flex-col text-center items-center">
+              <div className="mb-1 rounded-xl shadow-lg bg-white text-black">
                 <a href="#!">
-                  <h2 className="text-2xl">
-                    James Gunn Teases 5 New Heroes
-                  </h2>
+                  <img
+                    className="object-cover rounded-t-xl"
+                    src="https://consequence.net/wp-content/uploads/2021/12/peacemaker-trailer-hbo-max-new.png"
+                    alt="Peacemaker and friend dive through the air"
+                  />
                 </a>
+                <div className="flex bg-white items-center justify-center">
+                  <a href="#!">
+                    <h2 className="text-2xl">Waller First. <br></br>Peacemaker After.</h2>
+                  </a>
+                </div>
               </div>
+              <p className="p-2 m-2 rounded-xl text-xs text-black bg-blue-200">
+                Sounds like 'Peacemaker' fans will have to wait until after Waller to have their questions...{" "}
+                <a className="text-blue-500" href="#">
+                  Continue Reading
+                </a>
+              </p>
             </div>
-            <p className="p-2 m-2 rounded-xl text-xs text-black bg-blue-200">
-              While there has been much speculation about which heroes will be
-              featured in the DCU...{" "}
-              <a className="text-blue-500" href="#">
-                Continue Reading
-              </a>
-            </p>
           </div>
-        </div>
-        <div className="lg:w-1/2 rounded-xl mx-5 mb-5 shadow-lg bg-blue-400 text-gray-700 text-center dark:bg-blue-700 text-black">
-          <div className="flex rounded-xl flex-col text-center items-center">
-            <div className="mb-1 rounded-xl shadow-lg bg-white text-black">
-              <a href="#!">
-                <img
-                  className="object-cover rounded-t-xl"
-                  src="keats.png"
-                  alt="Keaton grins at the camera"
-                />
-              </a>
-              <div className="flex bg-white items-center justify-center">
+          <div className="lg:w-1/2 rounded-xl mx-5 mb-5 shadow-lg bg-blue-400 text-gray-700 text-center dark:bg-blue-700 text-black">
+            <div className="flex rounded-xl flex-col text-center items-center">
+              <div className="mb-1 rounded-xl shadow-lg bg-white text-black">
                 <a href="#!">
-                  <h2 className="text-2xl">New Trailer for 'The Flash'</h2>
+                  <img
+                    className="object-cover rounded-t-xl"
+                    src="https://www.digitaltrends.com/wp-content/uploads/2022/05/dc-comics-nightwing.jpg?p=1"
+                    alt="Nightwing gives a smug look as he falls through the air"
+                  />
                 </a>
+                <div className="flex bg-white items-center justify-center">
+                  <a href="#!">
+                    <h2 className="text-2xl">James Gunn Teases 5 New Heroes in the new DCU</h2>
+                  </a>
+                </div>
               </div>
+              <p className="p-2 m-2 rounded-xl text-xs text-black bg-blue-200">
+                While there has been much speculation about which heroes will be
+                featured in the DCU...{" "}
+                <a className="text-blue-500" href="#">
+                  Continue Reading
+                </a>
+              </p>
             </div>
-            <p className="p-2 m-2 rounded-xl text-xs text-black bg-blue-200">
-              Keaton makes his much awaited return and
-              Calle stuns as Supergirl in 'The Flash' trailer...{" "}
-              <a className="text-blue-500" href="#">
-                Continue Reading
-              </a>
-            </p>
+          </div>
+          <div className="lg:w-1/2 rounded-xl mx-5 mb-5 shadow-lg bg-blue-400 text-gray-700 text-center dark:bg-blue-700 text-black">
+            <div className="flex rounded-xl flex-col text-center items-center">
+              <div className="mb-1 rounded-xl shadow-lg bg-white text-black">
+                <a href="#!">
+                  <img
+                    className="object-cover rounded-t-xl"
+                    src="keats.png"
+                    alt="Keaton grins at the camera"
+                  />
+                </a>
+                <div className="flex bg-white items-center justify-center">
+                  <a href="#!">
+                    <h2 className="text-2xl">New Trailer for 'The Flash' Drops During Superbowl</h2>
+                  </a>
+                </div>
+              </div>
+              <p className="p-2 m-2 rounded-xl text-xs text-black bg-blue-200">
+                Keaton makes his much awaited return and Calle stuns as
+                Supergirl in 'The Flash' trailer...{" "}
+                <a className="text-blue-500" href="#">
+                  Continue Reading
+                </a>
+              </p>
+            </div>
           </div>
         </div>
         <div className="flex place-content-center">
           <button
             type="button"
-            className="flex lg:h-1/2 lg:text-4xl lg:items-center mb-4 rounded-3xl self-center px-6 py-2.5 bg-blue-400 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:text-gray-200 hover:bg-blue-500 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out dark:bg-gray-300 text-black"
+            className="flex lg:h-1/2 lg:text-xl lg:items-center mb-4 rounded-3xl self-center px-6 py-2.5 bg-blue-400 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:text-gray-200 hover:bg-blue-500 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out dark:bg-gray-300 text-black"
           >
             <a href="/news">See More News ➡️</a>
           </button>
         </div>
       </div>
-    </div>
-      <div className="mb-4 h-1 bg-black dark:bg-white"></div>
-      <div className="mb-2 lg:flex">
-        <div className="flex px-4 place-content-center">
-          <h2 className="flex lg:h-1/2 lg:mt-16 rounded-lg font-semibold items-center justify-center text-center text-3xl bg-blue-400 mb-4 h-[40px] lg:h-full w-full dark:text-black">
-            Latest Reviews:
-          </h2>
-        </div>
-        <div className="mb-4 h-1 bg-black dark:bg-white"></div>
-
+      <div className="flex px-4 place-content-center">
+        <h2 className="flex lg:h-1/2 rounded-lg font-semibold items-center justify-center text-center text-3xl bg-blue-400 mb-4 h-[40px] lg:h-full w-full dark:text-black">
+          Latest Reviews:
+        </h2>
+      </div>
+      <div className="lg:flex">
+        
         <div className="flex lg:w-1/2 rounded-xl mx-5 mb-5 shadow-lg bg-blue-400 text-gray-700 text-center dark:bg-blue-700 text-black">
           <div className="flex rounded-xl flex-col text-center items-center">
             <div className="mb-1 rounded-xl shadow-lg bg-white text-black">
@@ -91,7 +111,9 @@ export default function Home() {
               </a>
               <div className="flex bg-white items-center justify-center">
                 <a href="#!">
-                  <h2 className="text-2xl">'Legion of Super Heroes' <br></br>★☆☆☆☆</h2>
+                  <h2 className="text-2xl">
+                    'Legion of Super Heroes' <br></br>{" "}★☆☆☆☆
+                  </h2>
                 </a>
               </div>
             </div>
@@ -116,9 +138,9 @@ export default function Home() {
               </a>
               <div className="flex bg-white items-center justify-center">
                 <a href="#!">
-                  <h2 className="text-2xl">
+                  <h2 className="text-2xl lg:text-xl">
                     'Batman and Superman: Battle of the Super Sons' <br></br>
-                    ★★★☆☆
+                    <h2 className="lg:text-2xl">★★★☆☆</h2>
                   </h2>
                 </a>
               </div>
@@ -133,44 +155,46 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="flex place-content-center">
-          <button
-            type="button"
-            className="flex mb-4 rounded-3xl self-center px-6 py-2.5 bg-blue-400 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:text-gray-200 hover:bg-blue-500 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out dark:bg-gray-300 text-black"
-          >
-            <a href="/reviews">See More Reviews ➡️</a>
-          </button>
-        </div>
-      </div>
-
-      <div className="mb-4 h-1 bg-black dark:bg-white"></div>
-      <div className="p-3 mb-3 shadow-lg rounded-lg bg-blue-400 text-gray-700 text-center dark:bg-blue-700 text-black">
-        <h2 className="font-semibold text-xl rounded-lg bg-blue-200 text-black dark:bg-black dark:text-white">
-          The Future of the DCU:
-        </h2>
-        <div className="flex flex-col text-center items-center p-2">
-          <div className="mb-1 rounded-lg shadow-lg bg-white dark:bg-black dark:text-white">
-            <a href="#!">
-              <img
-                className="object-cover"
-                src="fullSlate.JPG"
-                alt="A large list of upcoming DC movies"
-              />
-            </a>
-            <p className="text-xs text-black bg-blue-200">
-              credit: heroes reforged | view the full picture{" "}
-              <a
-                href="https://www.instagram.com/p/CoGl0btrbaI/?hl=en"
-                className="text-cyan-500 dark:text-black underline"
-              >
-                here
+        <div className="lg:flex-2 lg:w-1/2 rounded-xl mx-5 mb-5 shadow-lg bg-blue-400 text-gray-700 text-center dark:bg-blue-700 text-black">
+          <div className="flex rounded-xl flex-col text-center items-center">
+            <div className="mb-1 rounded-xl shadow-lg bg-white text-black">
+              <a href="#!">
+                <img
+                  className="object-cover rounded-t-xl"
+                  src="https://images.squarespace-cdn.com/content/v1/51b3dc8ee4b051b96ceb10de/75bc5be3-5a27-4778-942b-3d17847a3593/Screen+Shot+2022-05-09+at+3.45.40+PM.png"
+                  alt="Green Lanter and Green Arrow look baffled"
+                />
+              </a>
+              <div className="flex bg-white items-center justify-center">
+                <a href="#!">
+                  <h2 className="text-2xl">
+                    'Green Lantern: Beware My Power'<br></br>
+                    ★★★☆☆
+                  </h2>
+                </a>
+              </div>
+            </div>
+            <p className="p-2 m-2 rounded-xl text-xs text-black bg-blue-200">
+              'Beware my Power' is a solid movie following a fun and personable
+              hero...{" "}
+              <a className="text-blue-500" href="#">
+                Continue Reading
               </a>
             </p>
           </div>
         </div>
       </div>
-      <div className="mb-4 h-1 bg-black dark:bg-white"></div>
 
+      <div className="flex place-content-center">
+        <button
+          type="button"
+          className="flex mb-4 lg:text-xl rounded-3xl self-center px-6 py-2.5 bg-blue-400 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:text-gray-200 hover:bg-blue-500 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out dark:bg-gray-300 text-black"
+        >
+          <a href="/reviews">See More Reviews ➡️</a>
+        </button>
+      </div>
+
+      
     </main>
   );
 }
