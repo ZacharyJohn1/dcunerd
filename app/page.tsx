@@ -140,7 +140,7 @@ export default function Home() {
                 <a href="#!">
                   <h2 className="text-2xl lg:text-xl">
                     'Batman and Superman: Battle of the Super Sons' <br></br>
-                    <h2 className="lg:text-2xl">★★★☆☆</h2>
+                    <div className="lg:text-2xl">★★★☆☆</div>
                   </h2>
                 </a>
               </div>
