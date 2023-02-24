@@ -132,7 +132,7 @@ export default function Home() {
               <a href="#!">
                 <img
                   className="object-cover rounded-t-xl"
-                  src="https://www.dc.com/sites/default/files/Marquee_SuperSons_63604ef9250065.21638518.jpg"
+                  src="https://static.dc.com/dc/files/default_images/Marquee_BattleSS_634dfc52e28494.28734919.jpg?w=1200"
                   alt="Robin and Jon look at the camera"
                 />
               </a>
