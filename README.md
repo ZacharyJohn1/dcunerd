@@ -12,7 +12,7 @@ This is a passion project of mine dedicated to all things DCU! With James Gunn a
 
 ## Light Mode on Mobile!
 
-[![Screenshot-2023-02-22-at-4-58-07-PM.png](https://i.postimg.cc/Kv5h4HRP/Screenshot-2023-02-22-at-4-58-07-PM.png)](https://postimg.cc/F71BBGbz)
+[![Screenshot-2023-02-22-at-4-58-07-PM.png](https://i.postimg.cc/ydwtTrbP/Screenshot-2023-02-22-at-4-58-07-PM.png)](https://postimg.cc/1nrvmMPn)
 
 
 ## First Look at Desktop!
