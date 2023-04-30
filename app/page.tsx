@@ -1,23 +1,9 @@
-import NewsCard from "./NewsCard";
-import ReviewCard from "./ReviewCard";
+import NewsCard from "./cards/NewsCard";
+import ReviewCard from "./cards/ReviewCard";
 
 export default function Home() {
   return (
     <main className="px-2 py-4">
-      <NewsCard
-        image="https://consequence.net/wp-content/uploads/2021/12/peacemaker-trailer-hbo-max-new.png"
-        title="Waller First. <br></br>Peacemaker After."
-        description="Sounds like 'Peacemaker' fans will have to wait until after Waller to have their questions..."
-        link="#"
-      />
-
-      <ReviewCard
-        image="https://m.media-amazon.com/images/M/MV5BZjU0MjBmZTgtYzE2Mi00NTdmLWE4M2QtM2Y0Y2JjMTQ0NTkwXkEyXkFqcGdeQXVyOTc5MDI5NjE@._V1_.jpg"
-        title="'Legion of Super Heroes' <br></br>★☆☆☆☆"
-        description="Legion of Superheroes tries to tell the story of a broken woman but falls flat where it counts..."
-        link="#"
-      />
-
       <div className="mb-2">
         <div className="flex px-4 place-content-center">
           <h2 className="flex lg:h-1/2 rounded-lg font-semibold items-center justify-center text-center text-3xl bg-blue-400 mb-4 h-[40px] w-full dark:text-black">
@@ -25,33 +11,12 @@ export default function Home() {
           </h2>
         </div>
         <div className="lg:flex">
-          <div className="lg:w-1/2 rounded-xl mx-5 mb-5 shadow-lg bg-blue-400 text-gray-700 text-center dark:bg-blue-700 text-black">
-            <div className="flex rounded-xl flex-col text-center items-center">
-              <div className="mb-1 rounded-xl shadow-lg bg-white text-black">
-                <a href="#!">
-                  <img
-                    className="object-cover rounded-t-xl"
-                    src="https://consequence.net/wp-content/uploads/2021/12/peacemaker-trailer-hbo-max-new.png"
-                    alt="Peacemaker and friend dive through the air"
-                  />
-                </a>
-                <div className="flex bg-white items-center justify-center">
-                  <a href="#!">
-                    <h2 className="text-2xl">
-                      Waller First. <br></br>Peacemaker After.
-                    </h2>
-                  </a>
-                </div>
-              </div>
-              <p className="p-2 m-2 rounded-xl text-xs text-black bg-blue-200">
-                Sounds like 'Peacemaker' fans will have to wait until after
-                Waller to have their questions...{" "}
-                <a className="text-blue-500" href="#">
-                  Continue Reading
-                </a>
-              </p>
-            </div>
-          </div>
+          <NewsCard
+            image="https://consequence.net/wp-content/uploads/2021/12/peacemaker-trailer-hbo-max-new.png"
+            title="Waller First. Peacemaker After."
+            description="Sounds like 'Peacemaker' fans will have to wait until after Waller to have their questions..."
+            link="#"
+          />
           <div className="lg:w-1/2 rounded-xl mx-5 mb-5 shadow-lg bg-blue-400 text-gray-700 text-center dark:bg-blue-700 text-black">
             <div className="flex rounded-xl flex-col text-center items-center">
               <div className="mb-1 rounded-xl shadow-lg bg-white text-black">
@@ -122,33 +87,13 @@ export default function Home() {
         </h2>
       </div>
       <div className="lg:flex">
-        <div className="flex lg:w-1/2 rounded-xl mx-5 mb-5 shadow-lg bg-blue-400 text-gray-700 text-center dark:bg-blue-700 text-black">
-          <div className="flex rounded-xl flex-col text-center items-center">
-            <div className="mb-1 rounded-xl shadow-lg bg-white text-black">
-              <a href="#!">
-                <img
-                  className="object-cover rounded-t-xl"
-                  src="https://m.media-amazon.com/images/M/MV5BZjU0MjBmZTgtYzE2Mi00NTdmLWE4M2QtM2Y0Y2JjMTQ0NTkwXkEyXkFqcGdeQXVyOTc5MDI5NjE@._V1_.jpg"
-                  alt="Two caped heroes walk down a hall"
-                />
-              </a>
-              <div className="flex bg-white items-center justify-center">
-                <a href="#!">
-                  <h2 className="text-2xl">
-                    'Legion of Super Heroes' <br></br> ★☆☆☆☆
-                  </h2>
-                </a>
-              </div>
-            </div>
-            <p className="p-2 m-2 rounded-xl text-xs text-black bg-blue-200">
-              Legion of Superheroes tries to tell the story of a broken woman
-              but falls flat where it counts...{" "}
-              <a className="text-blue-500" href="#">
-                Continue Reading
-              </a>
-            </p>
-          </div>
-        </div>
+        <ReviewCard
+          image="https://m.media-amazon.com/images/M/MV5BZjU0MjBmZTgtYzE2Mi00NTdmLWE4M2QtM2Y0Y2JjMTQ0NTkwXkEyXkFqcGdeQXVyOTc5MDI5NjE@._V1_.jpg"
+          title="'Legion of Super Heroes' <br></br>★☆☆☆☆"
+          description="Legion of Superheroes tries to tell the story of a broken woman but falls flat where it counts..."
+          link="#"
+        />
+        
         <div className="lg:flex-2 lg:w-1/2 rounded-xl mx-5 mb-5 shadow-lg bg-blue-400 text-gray-700 text-center dark:bg-blue-700 text-black">
           <div className="flex rounded-xl flex-col text-center items-center">
             <div className="mb-1 rounded-xl shadow-lg bg-white text-black">
